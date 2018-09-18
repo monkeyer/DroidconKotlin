@@ -8,6 +8,7 @@ dependencies {
     implementation deps.knarch.threadsLivedataNative
     implementation deps.multiplatformSettings.ios
     implementation deps.timber.ios
+
 //    implementation deps.kotlin.coroutines.native
 
 //    implementation deps.ktor.ios
@@ -24,11 +25,11 @@ sourceSets {
             extraOpts '--disable', 'devirtualization'
         }
     }
-    test {
+    /*test {
         component {
             target 'ios_x64', 'ios_arm64'
         }
-    }
+    }*/
 }
 
 //noinspection GroovyAssignabilityCheck

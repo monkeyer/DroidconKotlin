@@ -96,7 +96,7 @@ object AppContext {
             )
 
             val networkSponsorJson = simpleGet(
-                    "https://s3.amazonaws.com/droidconsponsers/sponsors.json"
+                    "https://s3.amazonaws.com/droidconsponsers/sponsorskc.json"
             )
 
             storeAll(networkSponsorJson, networkSpeakerJson, networkSessionJson)
