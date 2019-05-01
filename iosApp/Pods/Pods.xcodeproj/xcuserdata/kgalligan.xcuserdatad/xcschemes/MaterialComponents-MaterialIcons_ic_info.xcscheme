@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "000000004F30"
+               BlueprintIdentifier = "0000000049A0"
                BuildableName = "MaterialIcons_ic_info.bundle"
                BlueprintName = "MaterialComponents-MaterialIcons_ic_info"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "000000004F30"
+            BlueprintIdentifier = "0000000049A0"
             BuildableName = "MaterialIcons_ic_info.bundle"
             BlueprintName = "MaterialComponents-MaterialIcons_ic_info"
             ReferencedContainer = "container:Pods.xcodeproj">
