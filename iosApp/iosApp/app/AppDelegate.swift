@@ -28,6 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 code: 0,
                 userInfo: ["msg": errorString]
             )
+            
+            self.write(string: "errorString: \(errorString)")
             Crashlytics.sharedInstance().recordError(error)
             return KotlinUnit()
         }
@@ -55,6 +57,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         requestNotificationPermissions()
         
         return true
+    }
+    
+    func write(string: String) {
+        CLSLogv("%@", getVaList([string]))
     }
     
     func requestNotificationPermissions(){
